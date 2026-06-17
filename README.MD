@@ -85,7 +85,6 @@ Al finalizar la instalación, se abrió **MySQL Workbench**. En la pantalla prin
 
 ![Captura 6 - MySQL Workbench con conexión local](img/captura_6.png)
 
-> 📌 *Pendiente: agregar captura de MySQL Workbench abierto con la conexión local visible.*
 
 ---
 
@@ -102,9 +101,6 @@ SELECT VERSION() AS 'Versión de MySQL',
 
 ### Resultado obtenido
 
-![Captura 7 - Resultado de la consulta de validación](img/captura_7.png)
-
-> 📌 *Pendiente: agregar captura con el resultado de la query mostrando la versión, usuario y fecha.*
 
 La consulta retornó:
 - ✅ La **versión instalada** de MySQL Server
@@ -123,8 +119,7 @@ La consulta retornó:
  ┃ ┣ 🖼️ captura_3.png   → Configuración de red y puerto 3306
  ┃ ┣ 🖼️ captura_4.png   → Método de autenticación SHA-256
  ┃ ┣ 🖼️ captura_5.png   → Configuración de contraseña del root
- ┃ ┣ 🖼️ captura_6.png   → MySQL Workbench con conexión local
- ┃ ┗ 🖼️ captura_7.png   → Resultado de la query de validación
+ ┃ ┗ 🖼️ captura_6.png   → MySQL Workbench con conexión local
  ┗ 📄 README.md
 ```
 
