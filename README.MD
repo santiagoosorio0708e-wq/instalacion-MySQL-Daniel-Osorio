@@ -101,6 +101,9 @@ SELECT VERSION() AS 'Versión de MySQL',
 
 ### Resultado obtenido
 
+![Captura 7 - Resultado de la consulta de validación](img/captura_7.png)
+
+La imagen muestra el resultado de la consulta de validación ejecutada en MySQL Workbench: una tabla con tres columnas — "Versión de MySQL", "Usuario Actual" y "Fecha y Hora del Servidor". En la captura se aprecia la versión instalada (por ejemplo, 8.0.46), el usuario conectado (`root@localhost`) y la marca temporal del servidor. Esto confirma que el servidor MySQL está en funcionamiento y que la conexión desde MySQL Workbench es correcta.
 
 La consulta retornó:
 - ✅ La **versión instalada** de MySQL Server
@@ -119,7 +122,8 @@ La consulta retornó:
  ┃ ┣ 🖼️ captura_3.png   → Configuración de red y puerto 3306
  ┃ ┣ 🖼️ captura_4.png   → Método de autenticación SHA-256
  ┃ ┣ 🖼️ captura_5.png   → Configuración de contraseña del root
- ┃ ┗ 🖼️ captura_6.png   → MySQL Workbench con conexión local
+ ┃ ┣ 🖼️ captura_6.png   → MySQL Workbench con conexión local
+ ┃ ┗ 🖼️ captura_7.png   → Resultado de la query de validación
  ┗ 📄 README.md
 ```
 
